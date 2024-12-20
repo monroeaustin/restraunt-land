@@ -1,0 +1,51 @@
+h2.Home{
+    font-family: "DM Sans", serif;
+    font-size: 1.375rem;
+    color: #FFFFFF;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 300;
+    max-width: 50%;
+    margin: 1rem 0rem 5.5rem 0rem;
+  }
+.hero{
+  min-height: 100vh;
+}
+#content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#content h1{
+  font-family: "DM Sans", serif;
+  font-size: 4.5rem;
+  color: #FFFFFF;
+  line-height: 5.375rem;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-top: 24rem;
+}
+
+button.cta{
+  background-color:#2F1893;
+  width: 14.375rem;
+  height: 3.75rem;
+  font-weight: 400;
+  color:#FFFFFF;
+  font-family: "DM Sans", serif;
+  font-size: 1.125rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); 
+}
+button.cta:hover{
+  background-color:#482BE7;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 

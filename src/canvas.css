@@ -1,0 +1,46 @@
+body {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    background-image: url('./imgs/mountain.svg');
+    background-color: #2F1893;
+    }
+    .hero{
+        min-height: 100vh;
+      }
+      nav{
+        align-self: center;
+        margin-top: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30vh;
+      }
+      header{
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+      }
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "DM Sans", serif;
+      }
+      nav button{
+        font-family: "DM Sans", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.625rem;
+        color: #FFFFFF;
+        background: none;
+        border: none;
+        line-height: 1.625rem;
+        cursor: pointer;
+        padding: 0 12px;
+      }
+      .active-pg{
+        color: #FFFFFF; /* Text color */
+        filter: blur(1px); /* This blurs the text itself */
+      }
